@@ -18,10 +18,14 @@ body{
     z-index: 999;
     box-sizing: border-box;
 }
+.logo{
+		color: rgb(253,244,211);
+}
 .links{
   display: flex;
   flex-direction: row;
   front-size: 15px;
+	color: rgb(253,244,211);
 }
 .links > div{
     margin: 0 15px 0 15px;
