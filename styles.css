@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body{
+    color: white;
+    margin: 0;
+    padding: 0;
+    front-size: 25px;  
+    front-weight: 400; 
+}
+.header{
+    display: flex;
+    background-color: rgb(244,208,64);
+    justify-content: space-between;
+    padding: 20px;
+    front: 700 15px Ruda, sans-serif;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    box-sizing: border-box;
+}
+.links{
+  display: flex;
+  flex-direction: row;
+  front-size: 15px;
+}
+.links > div{
+    margin: 0 15px 0 15px;
+}
